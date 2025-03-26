@@ -1,0 +1,110 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "What's up?",
+        "Hi there"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How can I help?"
+      ],
+      "context_set": "greeting_context"
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care",
+        "Have a nice day",
+        "Farewell",
+        "Catch you later",
+        "Bye for now",
+        "See you soon"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Take care!"
+      ],
+      "context_set": "goodbye_context"
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Appreciate it",
+        "Thank you so much",
+        "Cheers",
+        "Many thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "No problem!"
+      ],
+      "context_set": "thanks_context"
+    },
+    {
+      "tag": "help_support",
+      "patterns": [
+        "Help",
+        "I need help",
+        "Can you help me?",
+        "What can you do?",
+        "How does this work?",
+        "I'm stuck",
+        "I need assistance",
+        "Can you assist me?",
+        "I need support",
+        "Can you help me with this issue?",
+        "How do I contact support?",
+        "I have a technical problem",
+        "Your system is not working",
+        "I need technical assistance",
+        "Something is wrong",
+        "I need help with this"
+      ],
+      "responses": [
+        "Sure! I can help you with information, FAQs, and more. What do you need?",
+        "How can I assist you?",
+        "I'm here to help! What do you need?",
+        "I can help you with that. What seems to be the problem?",
+        "Let me connect you with our support team. Please describe the issue."
+      ],
+      "context_set": "help_support_context"
+    },
+    {
+      "tag": "booking_workspace",
+      "patterns": [
+        "I want to book a workspace",
+        "Can I reserve a desk?",
+        "Book a meeting room for me",
+        "I need to reserve a workspace",
+        "Can you help me book a desk?",
+        "I’d like to make a reservation",
+        "Can I book a workspace for tomorrow?"
+      ],
+      "responses": [
+        "Sure! Please tell me the date and time you'd like to reserve a workspace.",
+        "I can help you book a desk. When would you like to reserve it?",
+        "Which type of workspace would you like to book and for what time?",
+        "Let's get your reservation set up. When do you need the workspace?"
+      ],
+      "context_set": "booking_workspace_context"
+    }
+
+  ]
+}
